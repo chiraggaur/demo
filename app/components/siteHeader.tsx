@@ -1,7 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 export default function SiteHeader() {
   return (
@@ -27,13 +27,10 @@ export default function SiteHeader() {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         {/* renamed image file to work in deployment  */}
-        <Image
+        <img
           src="/logo.svg"
           alt="Logo"
-          width={127}
-          height={59}
           className="w-[127px] h-[59px] object-contain mx-auto"
-          priority
         />
       </motion.div>
 
