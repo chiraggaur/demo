@@ -26,6 +26,7 @@ export default function SiteHeader() {
         }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
+        {/* renamed image file to work in deployment  */}
         <Image
           src="/logo.svg"
           alt="Logo"
